@@ -1,0 +1,52 @@
+*{margin:0;
+    padding:0;
+    font-family:"Josefin Sans";
+    color: var(--text);
+    transition: 0.4s;
+}
+
+:root {
+    --text: #0D0E43;
+    --f-c: #FB2E86;
+    --main-btn: #FB2E86;
+    --second-btn: #08D15F;
+    --s-c: #2F1AC4;
+    --t-c:  #08D15F;
+    --background: #F1F0FF;
+}
+
+/* Classes */
+.container{padding:0 140px}
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pr:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* Elements */
+ul{list-style-type: none;}
+a{text-decoration: none; color: black}
+.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px
+}
+.btn {
+    background-color: var(--f-c);
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    width: 8em;
+    height: 2.5em;
+    font-size: 16px;
+}
+.btn:hover {
+    opacity: .8;
+    cursor: pointer;
+}   
